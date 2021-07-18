@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-size: auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+}
+
+canvas {
+  display: block;
+}
+
+.header, #status {
+  border: 2px solid white;
+  border-radius: 10px;
+  background: rgb(255,0,0);
+  background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,162,0,1) 10%, rgba(228,255,0,1) 20%, rgba(61,255,0,1) 30%, rgba(0,255,162,1) 40%, rgba(0,150,255,1) 50%, rgba(38,0,255,1) 60%, rgba(179,0,255,1) 70%, rgba(255,0,227,1) 80%, rgba(255,0,116,1) 90%, rgba(255,0,0,1) 100%);
+}
